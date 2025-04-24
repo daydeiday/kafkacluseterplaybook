@@ -70,7 +70,7 @@
 3. Kafka 클러스터 배포:
 
    ```bash
-   ansible-playbook -i onprem_sudopassword.yml deploy-kafka-cluster.yml
+   ansible-playbook -i inventory/onprem_sudopassword.yml deploy-kafka-cluster.yml
    ```
 
 `<인벤토리_파일>`을 환경에 맞는 적절한 인벤토리 파일로 교체하세요.
