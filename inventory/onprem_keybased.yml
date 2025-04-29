@@ -18,11 +18,11 @@ all:
     kafka:
       hosts:
         kafka1:
-          ansible_host: 192.0.10.251
+          ansible_host: 192.0.10.241
           ansible_user: test
         kafka2:
-          ansible_host: 192.0.10.252
+          ansible_host: 192.0.10.242
           ansible_user: test
         kafka3:
-          ansible_host: 192.0.10.253
+          ansible_host: 192.0.10.243
           ansible_user: test
